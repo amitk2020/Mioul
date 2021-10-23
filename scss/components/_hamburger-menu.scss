@@ -1,0 +1,39 @@
+.hamburger-menu {
+    height: 60px;
+    width: 60px;
+    background-color: $white;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    span {
+        height: 2px;
+        width: 20px;
+        background-color: $text-color;
+        margin-bottom: 4px;
+        border-radius: 10px;
+        -webkit-transition: $transition;
+        transition: $transition;
+        &:last-child {
+            margin-bottom: 0;
+            width: 10px;
+            margin-right: -10px;
+        }
+    }
+    &:hover>span {
+        &:first-child {
+            width: 10px;
+            margin-right: -10px;
+            color: $primary;
+        }
+        &:last-child {
+            width: 20px;
+            margin-right: 0px;
+        }
+    }
+}

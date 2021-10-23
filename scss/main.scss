@@ -1,6 +1,14 @@
 
-
+// Variables
 @import 'abstracts/variables';
+
+
+// Import Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
 @import 'base/base';
 
+@import 'components/hamburger-menu';
 
+@import 'pages/home';
