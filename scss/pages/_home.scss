@@ -2,14 +2,45 @@
     top: 0px;
     left: -2.5rem;
     z-index: -1;
+    width:300px;
 }
 
-.header-bg-img-2 {
-    top: -100px;
-    right: -14rem;
-    z-index: -1;
-}
 
+// banner blue bg circle
+.blue-bg-circle{
+    .header-bg-img-2 {
+        // top: -100px;
+        // right: -14rem;
+        z-index: -1;
+        top:0px;
+        right:-10rem;
+        width:300px;
+    }
+    
+}
 .banner-heading {
     height: 38vw;
+    h1{
+        font-size:40px;
+        @include media-breakpoint-up(md) {
+            font-size: 50px;
+        }
+        @include media-breakpoint-up(lg) {
+            font-size: 70px;
+        }
+        
+    }
+    p{
+        // font-size: 1.5vw;
+    }
+}
+
+// Banner Humans
+.banner-humans{
+    img{
+        width:300px;
+        @include media-breakpoint-up(md) {
+            width:auto;
+        }
+    }
 }
