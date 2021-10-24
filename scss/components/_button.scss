@@ -1,0 +1,15 @@
+.button{
+    background-color: $primary;
+    padding:0.6rem 3rem;
+    color:$white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline-block;
+    @include media-breakpoint-up(md) {
+        font-size: 1.3rem;
+        padding:1rem 3rem;
+    }
+
+}

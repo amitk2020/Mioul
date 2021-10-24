@@ -3,23 +3,39 @@
     left: -3.5rem;
     z-index: -1;
     width:205px;
+    @include media-breakpoint-up(sm) {
+        width:290px;
+    }
+    @include media-breakpoint-up(md) {
+        width:400px;
+    }
+    @include media-breakpoint-up(lg) {
+        width:450px;
+    }
 }
 
 
 // banner blue bg circle
 .blue-bg-circle{
     .header-bg-img-2 {
-        // top: -100px;
-        // right: -14rem;
         z-index: -1;
         top:0px;
         right:0rem;
         width:200px;
+        @include media-breakpoint-up(sm) {
+            width:350px;
+        }
+        @include media-breakpoint-up(md) {
+            width:500px;
+        }
+        @include media-breakpoint-up(lg) {
+            width:750px;
+        }
     }
     
 }
 .banner-heading {
-    height: 38vw;
+    // height: 38vw;
     h1{
         font-size:40px;
         @include media-breakpoint-up(md) {
