@@ -10,6 +10,7 @@
 
 # Private Node Modules
 node_modules/
+.netlify/*
 
  
 
