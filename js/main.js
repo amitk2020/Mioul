@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
     var menuCancel = $('.slide-menu-header');
     $('.menu').click('on', mennSliderVisible);
