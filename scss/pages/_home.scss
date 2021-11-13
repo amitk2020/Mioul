@@ -2,84 +2,89 @@
     top: 0px;
     left: -3.5rem;
     z-index: -1;
-    width:205px;
+    width: 205px;
     @include media-breakpoint-up(sm) {
-        width:290px;
+        width: 290px;
     }
     @include media-breakpoint-up(md) {
-        width:400px;
+        width: 400px;
     }
     @include media-breakpoint-up(lg) {
-        width:35rem;
+        width: 35rem;
     }
 }
-
 
 // banner blue bg circle
-.blue-bg-circle{
+.blue-bg-circle {
     .header-bg-img-2 {
         z-index: -1;
-        top:0px;
-        right:0rem;
-        width:200px;
+        top: 0px;
+        right: 0rem;
+        width: 200px;
         @include media-breakpoint-up(sm) {
-            width:350px;
+            width: 350px;
         }
         @include media-breakpoint-up(md) {
-            width:500px;
+            width: 500px;
         }
         @include media-breakpoint-up(lg) {
-            width:750px;
+            width: 750px;
         }
     }
-    
 }
+
 .banner-heading {
     // height: 38vw;
-    h1{
-        font-size:40px;
+    h1 {
+        font-size: 40px;
         @include media-breakpoint-up(md) {
             font-size: 50px;
         }
         @include media-breakpoint-up(lg) {
             font-size: 70px;
         }
-        
     }
-    p{
+    p {
         // font-size: 1.5vw;
     }
 }
 
 // Banner Humans
-.banner-humans{
-    img{
-        width:300px;
+.banner-humans {
+    img {
+        width: 300px;
         @include media-breakpoint-up(md) {
-            width:auto;
+            width: auto;
         }
     }
 }
 
 // bubbles
-.bubble-1{
-    width:50px;
+.bubble-1 {
+    width: 50px;
     height: 50px;
     border-radius: 100px;
-    background:$site-blue;
+    background: $site-blue;
     position: absolute;
-    top:0px;
+    top: 0px;
     left: 0px;
     z-index: -2;
-   
 }
 
-
-.home-services{
-    margin-top:5.5rem;
+.outlined-circle {
+    right: 20px;
+    top: 40px;
+    max-width: 600px;
 }
 
-footer{
-    min-height:300px;
-    
+.home-services {
+    margin-top: 5.5rem;
+}
+
+footer {
+    min-height: 300px;
+}
+
+.z-index-2 {
+    z-index: 2;
 }

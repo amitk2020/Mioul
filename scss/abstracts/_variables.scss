@@ -1,13 +1,11 @@
 $primary:#5956e9;
 $site-blue:#badefb;
 $site-yellow:#fcdc5f;
+$bg-light-info:#E0E2F1;
 $dark:#27272e;
 $site-pink:#f5b8c3;
 $light-grey:#999ab8;
 $white:#ffffff;
-
-$lighter-primary:lighten($primary,8%);
-$darker-primary:darken($primary,40%);
-$transition : all 0.3s ease-in-out;
-
-
+$lighter-primary:lighten($primary, 8%);
+$darker-primary:darken($primary, 40%);
+$transition: all 0.3s ease-in-out;
