@@ -11,6 +11,10 @@
         font-size: 1.3rem;
         padding:0.8rem 3rem;
     }
+
+    &--small{
+      padding: 0.4rem 2rem;
+    }
     &:hover{
         color:$white;
         background-image:linear-gradient( $darker-primary);
