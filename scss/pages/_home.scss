@@ -89,3 +89,12 @@ footer {
     z-index: 2;
 }
 
+.footer-services{
+    li{
+        a{
+            font-size: 18px;
+            color:$text-color;
+            font-weight: 300;
+        }
+    }
+}
