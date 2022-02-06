@@ -15,9 +15,17 @@
     &--small{
       padding: 0.4rem 2rem;
     }
+   
     &:hover{
         color:$white;
         background-image:linear-gradient( $darker-primary);
+    }
+     &--white{
+      background-image:linear-gradient( #ffffff,#ffffff);
+      color:$primary;
+      &:hover{
+        color:$primary;
+      }
     }
 
 }
