@@ -1,15 +1,22 @@
 .portfolio-list button {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     padding: 8px 0;
     position: relative;
     color:$text-color;
     background: none;
+    font-family: 'DM sans', sans-serif;
     
 }
-
+.all{
+    img{
+        box-shadow: 0 55px 86px -35px #ecf2f6;
+        border-radius: 30px;
+    }
+}
 .active{
     border-bottom: 3px solid $primary;
+    color:$dark;
 }
 
 .hide {
@@ -37,5 +44,35 @@
 }
 .hide {
   display: none;
+}
+
+.big-yellow-circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: $site-yellow;   
+}
+.small-theme-circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: $primary; 
+    margin-left: auto;  
+}
+.service-outlined-circle{
+    height: 600px;
+    width: 600px;
+    border-radius: 100%;
+    border: 1px solid #F0F2F3; 
+    position: absolute;
+    right:-115px;
+    top:-55px;
+}
+.service-shapes{
+    position: absolute;
+    top:100px;
+    right:20%;
+    z-index: -1;
+    min-width:200px;
 }
 
