@@ -1,9 +1,15 @@
-.portfolio-list .active {
-  background: #444;
-  color: white;
+.portfolio-list button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 0;
+    position: relative;
+    color:$text-color;
+    background: none;
+    
 }
-.portfolio-list .active:hover {
-  color: #444;
+
+.active{
+    border-bottom: 3px solid $primary;
 }
 
 .hide {
